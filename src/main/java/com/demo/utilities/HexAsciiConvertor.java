@@ -1,4 +1,4 @@
-package com.edurekademo.utilities;
+package com.demo.utilities;
 
 public class HexAsciiConvertor {
 	/**
