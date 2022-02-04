@@ -8,6 +8,7 @@ pipeline {
         stage('clone') {
             steps {
                 git url: 'https://github.com/jyotikhera88/jenkins_maven_project.git'
+                sh 'echo hello'
             }
         }
         stage('compile') {
